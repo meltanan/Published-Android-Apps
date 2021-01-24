@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InClass2AreaCalculator</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="about">Area calculator app was Created by Mohamed Eltanani.
+        Moeltanani@hotmail.com
+        All rights are reserved.</string>
+</resources>
