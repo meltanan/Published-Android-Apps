@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monay2"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbutton"
+        android:text="Add Expense"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEditExpesne"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#e5e500"
+        android:text="Edit Expense"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShowExpense" />
+
+    <Button
+        android:id="@+id/buttonDeleteExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#cccc00"
+        android:text="Delete Expense"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEditExpesne" />
+
+    <Button
+        android:id="@+id/buttonShowExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#ffff00"
+        android:text="Show Expenses"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddExpense" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="49dp"
+        android:background="@drawable/roundbutton"
+
+        android:backgroundTint="#999900"
+        android:text="Exit"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#b2b200"
+        android:text="About"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDeleteExpense" />
+</android.support.constraint.ConstraintLayout>

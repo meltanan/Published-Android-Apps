@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Expenses</string>
+    <string name="addCategory">Add Category</string>
+    <string name="expenseName">Enter the Name</string>
+    <string name="amount">Amount</string>
+    <string name="editAmount">Enter the Amount</string>
+    <string name="date">Enter the Date</string>
+    <string name="add">Add Expense</string>
+    <string name="recepite">Receipt</string>
+    <string name="category">Category</string>
+    <string name="name">Name</string>
+
+    <string name="date2">Date</string>
+    <string name="receipte">Receipt</string>
+    <string name="finish">Finish</string>
+    <string name="selectFirst" >Select Expese First</string>
+    <string-array name="items">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilites</item>
+        <item>Other</item>
+    </string-array>
+</resources>
